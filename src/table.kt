@@ -1,12 +1,7 @@
 fun main(){
-    val n: Int = 5
-
-    for(i in 1..n){
-        var tempSum: Int = 0
-        for(j in 1..10){
-            tempSum+=i
-            println("$i X $j = ${tempSum}")
-        }
-        println()
-    }
+    var arr: Array<Int> = arrayOf(1,2,3,4,5)
+    println(arr.contentToString())
+}
+fun change(arr: Array<Int>){
+    arr[0] = 12
 }
